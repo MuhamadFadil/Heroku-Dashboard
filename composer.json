@@ -11,12 +11,18 @@
         "source": "https://github.com/bcit-ci/CodeIgniter"
     },
     "require": {
-        "php": "^7.4.0"
+        "php": "^7.4.0",
+        "silex/silex": "^2.0.4",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.0",
+        "symfony/twig-bridge": "^3",
+        "alrik11es/cowsayphp": "^1.2"
     },
     "suggest": {
         "paragonie/random_compat": "Provides better randomness in PHP 5.x"
     },
     "require-dev": {
+        "heroku/heroku-buildpack-php": "*",
         "mikey179/vfsstream": "1.1.*",
         "phpunit/phpunit": "4.* || 5.*"
     }

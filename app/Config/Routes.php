@@ -22,9 +22,9 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
-//$routes->resource('file');
+$routes->resource('file');
 
-//$route['default_controller'] = 'User';
+$route['default_controller'] = 'User';
 
 /**
  * --------------------------------------------------------------------

@@ -1015,17 +1015,17 @@ class RouteCollection implements RouteCollectionInterface
 	 *
 	 * @return \CodeIgniter\Router\RouteCollectionInterface
 	 */
-	public function match(array $verbs = [], string $from, $to, array $options = null): RouteCollectionInterface
-	{
-		foreach ($verbs as $verb)
-		{
-			$verb = strtolower($verb);
+	// public function match(array $verbs = [], string $from, $to, array $options = null): RouteCollectionInterface
+	// {
+	// 	foreach ($verbs as $verb)
+	// 	{
+	// 		$verb = strtolower($verb);
 
-			$this->{$verb}($from, $to, $options);
-		}
+	// 		$this->{$verb}($from, $to, $options);
+	// 	}
 
-		return $this;
-	}
+	// 	return $this;
+	// }
 
 	//--------------------------------------------------------------------
 

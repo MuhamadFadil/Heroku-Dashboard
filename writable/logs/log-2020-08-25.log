@@ -1,0 +1,826 @@
+CRITICAL - 2020-08-25 00:00:20 --> Data truncated for column 'kategori' at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 00:00:25 --> Data truncated for column 'kategori' at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 00:01:14 --> Column 'kegiatan' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 00:01:44 --> Column 'kegiatan' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 00:01:48 --> Column 'kegiatan' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 00:09:13 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('4')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 00:09:52 --> Column 'user' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 01:41:49 --> Data truncated for column 'kategori' at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 01:41:54 --> Data truncated for column 'kategori' at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 01:41:56 --> Data truncated for column 'kategori' at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 05:29:10 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('2')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 05:50:50 --> Duplicate entry '5' for key 'PRIMARY'
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 05:51:08 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 06:03:22 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('6')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 06:06:51 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('7')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 06:09:31 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 06:18:26 --> Incorrect integer value: '' for column `fadf4949_database`.`aktivitas`.`id_user` at row 1
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(39): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 06:21:18 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 08:11:54 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 08:17:10 --> Undefined variable: upload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 90, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:18:35 --> Trying to get property 'upload_file' of non-object
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/fadf4949/...', 96, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:24:12 --> Trying to get property 'upload_file' of non-object
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/fadf4949/...', 96, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:25:07 --> Trying to get property 'upload_file' of non-object
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/fadf4949/...', 96, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:26:11 --> Undefined variable: ambildata
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 94, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:26:52 --> Trying to get property 'upload_file' of non-object
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/fadf4949/...', 97, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:26:55 --> Trying to get property 'upload_file' of non-object
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/fadf4949/...', 97, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:33:50 --> Undefined variable: upload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 92, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:41:47 --> Undefined index: fileToUpload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 88, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:42:34 --> Undefined index: aktivitas
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 88, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:44:26 --> Undefined index: upload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 88, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:46:23 --> Undefined index: viewFormUpload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 88, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:55:52 --> Undefined index: upload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 88, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 08:57:58 --> Undefined variable: upload
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 89, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:03:58 --> Undefined variable: conn
+#0 /home/fadf4949/codeigniter/app/Views/viewFormUpload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 15, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormUpload', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(88): view('viewFormUpload')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 09:07:11 --> Argument 2 passed to view() must be of the type array, null given, called in /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php on line 89
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(89): view('viewFormUpload', NULL)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:07:21 --> Argument 2 passed to view() must be of the type array, null given, called in /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php on line 89
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(89): view('viewFormUpload', NULL)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:11:07 --> Argument 2 passed to view() must be of the type array, null given, called in /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php on line 89
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(89): view('viewFormUpload', NULL)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:11:11 --> Argument 2 passed to view() must be of the type array, null given, called in /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php on line 89
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(89): view('viewFormUpload', NULL)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:15:36 --> Field 'user' doesn't have a default value
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(99): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:15:45 --> Field 'user' doesn't have a default value
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(99): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:18:01 --> Undefined variable: row
+#0 /home/fadf4949/codeigniter/app/Models/ShareModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(99): App\Models\ShareModel->simpanfile(Array)
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 09:22:14 --> Call to undefined method App\Models\ShareModel::simpanfile
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(104): CodeIgniter\Model->__call('simpanfile', Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->upload()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 09:22:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2018): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(33): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): App\Models\ShareModel->file_upload(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:22:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2018): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(33): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): App\Models\ShareModel->file_upload(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:23:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2018): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(33): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): App\Models\ShareModel->file_upload(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:24:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2018): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(33): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): App\Models\ShareModel->file_upload(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:27:02 --> Call to a member function store() on null
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 09:27:52 --> Call to a member function store() on null
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 09:28:00 --> Call to a member function store() on null
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 09:33:23 --> Use of undefined constant upload_file - assumed 'upload_file' (this will throw an Error in a future version of PHP)
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/fadf4949/...', 47, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 09:49:49 --> Call to a member function store() on null
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 09:53:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2018): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(34): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(92): App\Models\ShareModel->file_upload(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->uploadfile()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 09:57:21 --> include(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Databas...', '/home/fadf4949/...', 2, Array)
+#1 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(2): include()
+#2 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#4 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(22): view('viewFormTambah')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-25 09:57:37 --> include(App/Config/Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(App/Con...', '/home/fadf4949/...', 2, Array)
+#1 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(2): include()
+#2 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#4 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(22): view('viewFormTambah')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-25 10:03:11 --> Undefined index: upload_file
+#0 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 5, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(22): view('viewFormTambah')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-25 10:06:24 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:16:54 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:22:28 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:23:03 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:26:21 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:26:24 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:27:00 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(80): view('viewFormEdit')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:27:19 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:27:22 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:32:09 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:33:14 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:33:18 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:33:33 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(82): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:36:48 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(81): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:37:14 --> Invalid file: viewFormEdit.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewFormEdit.ph...')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormEdit', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(81): view('viewFormEdit', Array)
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-25 10:39:54 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:40:00 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:40:46 --> Class 'App\Controllers\UserModel' not found
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 10:41:12 --> Class 'App\Controllers\UsersModel' not found
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 10:41:14 --> Class 'App\Controllers\UsersModel' not found
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-25 10:42:11 --> Unknown column 'user_id' in 'where clause'
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(1859): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/system/Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 10:42:20 --> Undefined variable: id_user
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 64, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-25 10:43:24 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:43:26 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:44:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:45:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:46:25 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:46:28 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('14')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 10:46:33 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 22:12:06 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 22:40:37 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in /home/fadf4949/codeigniter/system/Model.php on line 491
+#0 /home/fadf4949/codeigniter/system/Model.php(491): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(64): CodeIgniter\Model->first()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formedit('3')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-25 23:13:22 --> Unknown column 'nama' in 'where clause'
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(1859): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/system/Validation/Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/fadf4949/codeigniter/system/Validation/Validation.php(325): CodeIgniter\Validation\Rules->is_unique('Muh Jaya', 'nama', Array, NULL)
+#6 /home/fadf4949/codeigniter/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'Muh Jaya', Array, Array)
+#7 /home/fadf4949/codeigniter/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#8 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(31): CodeIgniter\Controller->validate(Array)
+#9 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#10 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#11 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-08-25 23:15:06 --> Unknown column 'nama' in 'where clause'
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(1859): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/fadf4949/codeigniter/system/Validation/Rules.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/fadf4949/codeigniter/system/Validation/Validation.php(325): CodeIgniter\Validation\Rules->is_unique('oy', 'nama', Array, NULL)
+#6 /home/fadf4949/codeigniter/system/Validation/Validation.php(189): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'oy', Array, Array)
+#7 /home/fadf4949/codeigniter/system/Controller.php(219): CodeIgniter\Validation\Validation->run()
+#8 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(31): CodeIgniter\Controller->validate(Array)
+#9 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#10 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#11 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-08-25 23:26:57 --> Column 'upload_file' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(51): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 23:28:21 --> Column 'upload_file' cannot be null
+#0 /home/fadf4949/codeigniter/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `ak...')
+#1 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(752): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /home/fadf4949/codeigniter/system/Database/BaseConnection.php(680): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /home/fadf4949/codeigniter/system/Database/BaseBuilder.php(2248): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /home/fadf4949/codeigniter/app/Models/ShareModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(51): App\Models\ShareModel->simpan(Array)
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-25 23:51:52 --> Undefined property: CodeIgniter\HTTP\RedirectResponse::$withInput
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->simpandata()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

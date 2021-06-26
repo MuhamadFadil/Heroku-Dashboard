@@ -1,0 +1,24 @@
+CRITICAL - 2021-03-31 00:44:13 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(116): mysqli_fetch_array(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-31 00:44:47 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-31 00:44:58 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

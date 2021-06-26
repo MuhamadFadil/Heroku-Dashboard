@@ -1,0 +1,635 @@
+CRITICAL - 2020-08-23 00:00:08 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:00:10 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:01:21 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:01:24 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:02:13 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:07:17 --> Undefined property: CodeIgniter\View\View::$load
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 7, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:08:41 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:08:48 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:09:10 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:09:12 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:09:48 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:10:35 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:11:05 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:11:07 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:11:12 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:13:11 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:13:56 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 36, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:13:58 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 36, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:25:27 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:25:33 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:25:35 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:25:54 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:25:58 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:25:59 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:27:08 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:27:21 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:29:56 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:29:58 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:32:11 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 40, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:32:12 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 40, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:33:38 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:33:41 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:33:42 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:35:22 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:35:41 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:35:49 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:38:28 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:39:40 --> Undefined variable: id
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 40, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:39:50 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:40:45 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:41:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(14): App\Models\ShareModel->tampil()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 00:41:45 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:43:16 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 00:43:47 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 09:46:23 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:26 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:28 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:34 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:36 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:49 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:46:51 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 09:47:19 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 09:47:22 --> Undefined variable: user
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:37:38 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 21:37:40 --> Undefined index: mathcaptcha_answer
+#0 /home/fadf4949/codeigniter/app/Controllers/Login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\Login->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-23 21:49:09 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:49:31 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:49:33 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:49:56 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:51:13 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:51:15 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:51:45 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 21:52:05 --> Undefined property: stdClass::$kegiatan
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 43, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 22:22:47 --> Invalid file: viewfromtambah.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewfromtambah....')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewfromtambah', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(21): view('viewfromtambah')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-23 22:23:39 --> Invalid file: viewfromtambah.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewfromtambah....')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewfromtambah', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(21): view('viewfromtambah')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-23 22:23:42 --> Invalid file: viewfromtambah.php
+#0 /home/fadf4949/codeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewfromtambah....')
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewfromtambah', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(21): view('viewfromtambah')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-23 22:24:51 --> Call to undefined function form_open()
+#0 /home/fadf4949/codeigniter/system/View/View.php(246): include()
+#1 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#2 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(21): view('viewFormTambah')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-23 22:25:33 --> Undefined variable: tampil
+#0 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 41, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(22): view('viewFormTambah')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-23 23:08:29 --> Undefined variable: tampil
+#0 /home/fadf4949/codeigniter/app/Views/viewFormTambah.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 91, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('viewFormTambah', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(22): view('viewFormTambah')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->formtambah()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -19,10 +19,7 @@ use GroceryCrud\Core\GroceryCrud;
 
 use CodeIgniter\Controller;
 
-// echo '<link rel="manifest" href="/manifest.json">';
-// echo '<link rel="serviceworker" href="/pwabuilder-sw.js">';
 echo '<link rel="main" href="/scripts/main.js">';
-echo '<link rel="app" href="/scripts/app.js">';
 
 class BaseController extends Controller
 {
@@ -92,41 +89,3 @@ class BaseController extends Controller
     }
 }
 ?>
-
-<!-- <!DOCTYPE html>
-<html>
-
-<head>
- <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<!-- PWA syarat2-->
-<!-- <link rel="apple-touch-icon" href="assets/images/icons/apple-icon-180x180-dunplab-manifest-38625.png">
-<meta name="theme-color" content="#7e7e7e"/>
-<meta name="google-site-verification" content="csv_Y4n-ORRhiQML5y4I7hEN-2dH2hjgHBY7lvCl4uk" /> -->
-
-<!--<link rel="style" href="scripts/styleCheckOnline.css">-->
-
-<!-- The SW magic -->
-  <!-- <script>
-  if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/pwabuilder-sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-    }else {
-        console.log("No ServiceWorker for you :(");
-    }
-  </script> -->
-  
-<!-- </head> -->
-<!--<body>-->
-<!--    <div id="container">-->
-<!--        <span>Offline</span>-->
-<!--    </div>-->
-<!--     <script src="<?php echo base_url("scripts/checkOnline.js"); ?>"></script>-->
-<!--</body>-->

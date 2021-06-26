@@ -6,4 +6,4 @@
 </IfModule>
 
 #define limit_memory_access
-# php_value memory_limit 512M
+php_value memory_limit 512M

@@ -1,28 +1,10 @@
-# Disable directory browsing
-Options All -Indexes
-
-# ----------------------------------------------------------------------
-# Rewrite engine
-# ----------------------------------------------------------------------
+# BEGIN WordPress
 <IfModule mod_rewrite.c>
-	Options +FollowSymlinks
-	RewriteEngine On
-
-	RewriteCond %{REQUEST_FILENAME} !-d
-    	RewriteRule ^(.*)/$ /$1 [L,R=301]
-
-	RewriteCond %{HTTPS} !=on
-	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-	RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
-
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.*)$ index.php/$1 [L]
-
-    RewriteCond %{HTTP:Authorization} .
-    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
 </IfModule>
-
-<IfModule !mod_rewrite.c>
-    ErrorDocument 404 index.php
-</IfModule>
+# END WordPress

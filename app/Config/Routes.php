@@ -18,10 +18,11 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  */
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Dashboard');
-// $routes->setDefaultMethod('index');
+//$routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
-$routes->set404Override();
+//$routes->set404Override();
 $routes->setAutoRoute(true);
+//$routes->get('/', 'Login::index');
 $routes->resource('file');
 
 $route['default_controller'] = 'User';

@@ -24,7 +24,7 @@ class App extends BaseConfig
 	| $config['base_url'] = 'http://localhost/CodeIgniter4/';
 
 	*/
-	public $baseURL = 'https://fadil.website/';
+	public $baseURL = 'https://pwadash.herokuapp.com/';
 
 	/*
 	|--------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <?php
-require('vendor/autoload.php');
+require('../vendor/autoload.php');
 
 // Valid PHP Version?
 $minPHPVersion = '7.4.1';

@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'org\\bovigo\\vfs\\' => array($vendorDir . '/mikey179/vfsstream/src/main/php'),
+    'PhpSpec' => array($vendorDir . '/phpspec/phpspec/src'),
+    'Diff' => array($vendorDir . '/phpspec/php-diff/lib'),
 );

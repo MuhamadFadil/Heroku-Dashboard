@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of sebastian/version.
+ * This file is part of the Version package.
  *
  * (c) Sebastian Bergmann <sebastian@phpunit.de>
  *
@@ -10,33 +10,32 @@
 
 namespace SebastianBergmann;
 
-final class Version
+/**
+ * @since Class available since Release 1.0.0
+ */
+class Version
 {
-    /**
-     * @var string
-     */
     private $path;
-
-    /**
-     * @var string
-     */
     private $release;
-
-    /**
-     * @var string
-     */
     private $version;
 
-    public function __construct(string $release, string $path)
+    /**
+     * @param string $release
+     * @param string $path
+     */
+    public function __construct($release, $path)
     {
         $this->release = $release;
         $this->path    = $path;
     }
 
-    public function getVersion(): string
+    /**
+     * @return string
+     */
+    public function getVersion()
     {
         if ($this->version === null) {
-            if (\substr_count($this->release, '.') + 1 === 3) {
+            if (count(explode('.', $this->release)) == 3) {
                 $this->version = $this->release;
             } else {
                 $this->version = $this->release . '-dev';
@@ -45,12 +44,12 @@ final class Version
             $git = $this->getGitInformation($this->path);
 
             if ($git) {
-                if (\substr_count($this->release, '.') + 1 === 3) {
+                if (count(explode('.', $this->release)) == 3) {
                     $this->version = $git;
                 } else {
-                    $git = \explode('-', $git);
+                    $git = explode('-', $git);
 
-                    $this->version = $this->release . '-' . \end($git);
+                    $this->version = $this->release . '-' . end($git);
                 }
             }
         }
@@ -59,34 +58,20 @@ final class Version
     }
 
     /**
+     * @param  string      $path
      * @return bool|string
      */
-    private function getGitInformation(string $path)
+    private function getGitInformation($path)
     {
-        if (!\is_dir($path . DIRECTORY_SEPARATOR . '.git')) {
+        if (!is_dir($path . DIRECTORY_SEPARATOR . '.git')) {
             return false;
         }
 
-        $process = \proc_open(
-            'git describe --tags',
-            [
-                1 => ['pipe', 'w'],
-                2 => ['pipe', 'w'],
-            ],
-            $pipes,
-            $path
-        );
-
-        if (!\is_resource($process)) {
-            return false;
-        }
-
-        $result = \trim(\stream_get_contents($pipes[1]));
-
-        \fclose($pipes[1]);
-        \fclose($pipes[2]);
-
-        $returnCode = \proc_close($process);
+        $dir = getcwd();
+        chdir($path);
+        $returnCode = 1;
+        $result     = @exec('git describe --tags 2>&1', $output, $returnCode);
+        chdir($dir);
 
         if ($returnCode !== 0) {
             return false;

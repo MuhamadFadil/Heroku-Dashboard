@@ -1,0 +1,60 @@
+CRITICAL - 2020-08-16 00:03:10 --> include_once(Codeigniter/App/Config/Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Co...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-16 00:03:33 --> include_once(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Da...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-16 00:03:35 --> include_once(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Da...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-16 00:05:11 --> include_once(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Da...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-16 00:05:15 --> include_once(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Da...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-16 00:05:16 --> include_once(Database.php): failed to open stream: No such file or directory
+#0 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(Da...', '/home/fadf4949/...', 74, Array)
+#1 /home/fadf4949/codeigniter/app/Controllers/Aktivitas.php(74): include_once()
+#2 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('aktivitas')
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('aktivitas')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

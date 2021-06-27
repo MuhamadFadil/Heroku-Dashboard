@@ -1,0 +1,612 @@
+CRITICAL - 2021-03-28 14:58:42 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 182, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(182): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 14:59:55 --> Call to undefined function App\Controllers\query()
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:01:10 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(113): mysqli_query(Object(App\Models\PushNotif), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(190): App\Models\PushNotif->kirimdata(Array)
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:01:12 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(113): mysqli_query(Object(App\Models\PushNotif), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(190): App\Models\PushNotif->kirimdata(Array)
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:01:19 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(113): mysqli_query(Object(App\Models\PushNotif), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(190): App\Models\PushNotif->kirimdata(Array)
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:02:20 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(115): mysqli_fetch_assoc('SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(190): App\Models\PushNotif->kirimdata(Array)
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:04:49 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(113): mysqli_query(Object(App\Models\PushNotif), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(190): App\Models\PushNotif->kirimdata(Array)
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:07:34 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(113): mysqli_query(Object(App\Models\PushNotif), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(183): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:09:22 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(114): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(183): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:11:27 --> Too few arguments to function App\Models\PushNotif::kirimdata(), 0 passed in C:\xampp\htdocs\SCR\app\Controllers\Setting.php on line 183 and exactly 3 expected
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(183): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:11:49 --> Too few arguments to function App\Models\PushNotif::kirimdata(), 0 passed in C:\xampp\htdocs\SCR\app\Controllers\Setting.php on line 183 and exactly 3 expected
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(183): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:14:49 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:15:56 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:19:32 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:19:34 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:20:31 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\content\pushNotif.php(27): json_decode(Array, true)
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(201): view('content/pushNot...')
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 15:20:48 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\content\pushNotif.php(27): json_decode(Array, true)
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(201): view('content/pushNot...')
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 15:22:03 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:23:29 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:23:52 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(114): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:24:04 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:29:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result_array()
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:30:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:32:25 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(114): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:32:36 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(114): mysqli_fetch_array(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(194): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 15:35:29 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\content\pushNotif.php(27): json_decode(Array, true)
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(201): view('content/pushNot...')
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 15:36:07 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\content\pushNotif.php(27): json_decode(Array, true)
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(201): view('content/pushNot...')
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 15:36:08 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\content\pushNotif.php(27): json_decode(Array, true)
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(201): view('content/pushNot...')
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 15:38:46 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(107): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:39:17 --> Call to undefined function App\Controllers\mysql_query()
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:40:00 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(111): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:40:24 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(111): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:40:37 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(111): mysqli_fetch_array(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:40:39 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(111): mysqli_fetch_array(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:41:44 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:41:56 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:44:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:44:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:50:53 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:51:33 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-28 15:52:19 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('content/pushNot...', Array, true)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(202): view('content/pushNot...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 15:55:01 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:56:11 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 15:57:48 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:00:22 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:00:28 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:00:40 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:03:06 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->sendAll()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:03:15 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:04:39 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:04:57 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:07:11 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:08:00 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:08:20 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:09:42 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:09:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:10:04 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:10:06 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:10:13 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:11:27 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:11:42 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:11:58 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-28 16:12:19 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:12:41 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:13:17 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:13:51 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:16:34 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:17:26 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:17:57 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:19:02 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:19:04 --> Undefined property: mysqli::$endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:19:17 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:19:49 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:19:50 --> Trying to get property 'endpoints' of non-object
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:20:11 --> Undefined index: endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:20:20 --> Undefined index: endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:20:32 --> Undefined index: endpoints
+#0 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-28 16:20:50 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\SCR\app\Models\PushNotif.php(116): mysqli_fetch_array(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(187): App\Models\PushNotif->kirimdata()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

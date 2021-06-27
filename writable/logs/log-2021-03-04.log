@@ -1,0 +1,165 @@
+CRITICAL - 2021-03-04 15:04:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-04 15:05:05 --> Undefined variable: liink
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:05:35 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\SCR\app\Views\setting.php(15): mysqli_query(Object(CodeIgniter\Database\MySQLi\Connection), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#4 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 15:06:45 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:06:56 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:10:24 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:10:25 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:10:27 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:16:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:18:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:18:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:18:53 --> Undefined variable: 
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:19:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SCR\app\Views\setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\SCR\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SCR\system\Common.php(1087): CodeIgniter\View\View->render('setting', Array, true)
+#3 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(34): view('setting', Array)
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-04 15:19:28 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\SCR\system\HTTP\Request.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 371, Array)
+#1 C:\xampp\htdocs\SCR\system\HTTP\IncomingRequest.php(411): CodeIgniter\HTTP\Request->fetchGlobal('post', NULL, 516, NULL)
+#2 C:\xampp\htdocs\SCR\system\Debug\Toolbar.php(165): CodeIgniter\HTTP\IncomingRequest->getPost()
+#3 C:\xampp\htdocs\SCR\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1614845968.2273, 0.1138, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\xampp\htdocs\SCR\system\Filters\DebugToolbar.php(75): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\xampp\htdocs\SCR\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#6 C:\xampp\htdocs\SCR\system\CodeIgniter.php(421): CodeIgniter\Filters\Filters->run('setting/index', 'after')
+#7 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 15:20:01 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:20:31 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:21:29 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:21:35 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 15:21:51 --> mysqli_query() expects parameter 1 to be mysqli, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\SCR\app\Controllers\Setting.php(53): mysqli_query(Object(App\Controllers\Setting), 'SELECT * FROM s...')
+#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(917): App\Controllers\Setting->broadcast()
+#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

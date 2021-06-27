@@ -1,0 +1,362 @@
+CRITICAL - 2020-08-22 22:30:16 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:31:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:31:55 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:32:28 --> Class 'App\Controllers\Controllers' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 22:33:05 --> Class 'App\Controllers\Controllers' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 22:33:18 --> Cannot call constructor
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(889): App\Controllers\ShareTarget->__construct()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->createController()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-22 22:36:15 --> Cannot call constructor
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(889): App\Controllers\ShareTarget->__construct()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->createController()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-22 22:36:49 --> Undefined property: App\Controllers\ShareTarget::$product_model
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 12, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 22:37:12 --> Undefined property: App\Controllers\ShareTarget::$ShareModel
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 12, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 22:37:32 --> Undefined property: App\Controllers\ShareTarget::$model
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 12, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 22:39:28 --> Cannot call constructor
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(889): App\Controllers\ShareTarget->__construct()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->createController()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-22 22:41:19 --> Cannot call constructor
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(889): App\Controllers\ShareTarget->__construct()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->createController()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-22 22:41:47 --> Cannot call constructor
+#0 /home/fadf4949/codeigniter/system/CodeIgniter.php(889): App\Controllers\ShareTarget->__construct()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->createController()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-22 22:43:42 --> Declaration of App\Libraries\ShareTarget::add() must be compatible with CodeIgniter\Router\RouteCollection::add(string $from, $to, ?array $options = NULL): CodeIgniter\Router\RouteCollectionInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:44:05 --> Declaration of App\Libraries\ShareTarget::add() must be compatible with CodeIgniter\Router\RouteCollection::add(string $from, $to, ?array $options = NULL): CodeIgniter\Router\RouteCollectionInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:44:20 --> Declaration of App\Libraries\ShareTarget::add() must be compatible with CodeIgniter\Router\RouteCollection::add(string $from, $to, ?array $options = NULL): CodeIgniter\Router\RouteCollectionInterface
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 22:45:40 --> Class 'App\Libraries\BaseRouteCollection' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 22:45:54 --> Class 'App\Libraries\BaseController' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 22:55:08 --> Class 'App\Libraries\Controller' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 22:55:10 --> Class 'App\Libraries\Controller' not found
+#0 /home/fadf4949/codeigniter/system/Router/Router.php(578): include_once()
+#1 /home/fadf4949/codeigniter/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('shareTarget')
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle('shareTarget')
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 23:09:05 --> Undefined property: App\Controllers\ShareTarget::$ShareModel
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 11, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 23:09:47 --> Undefined property: App\Controllers\ShareTarget::$ShareModel
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 11, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 23:09:49 --> Undefined property: App\Controllers\ShareTarget::$ShareModel
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 11, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 23:09:50 --> Undefined property: App\Controllers\ShareTarget::$ShareModel
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 11, Array)
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 23:14:23 --> Class 'Codeigniter\Model' not found
+#0 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(365): require_once()
+#1 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Shar...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Shar...')
+#4 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): spl_autoload_call('App\\Models\\Shar...')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-22 23:14:25 --> Class 'Codeigniter\Model' not found
+#0 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(365): require_once()
+#1 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Shar...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Shar...')
+#4 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): spl_autoload_call('App\\Models\\Shar...')
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-22 23:17:29 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:18:54 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:18:58 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:24:23 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:26:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(14): App\Models\ShareModel->getAll()
+#1 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-22 23:27:06 --> Undefined property: CodeIgniter\View\View::$load
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 8, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:30:16 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:30:28 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:30:38 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:30:47 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:30:54 --> Declaration of App\Models\ShareModel::save() must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:31:01 --> Declaration of App\Models\ShareModel::update() must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-22 23:31:08 --> Declaration of App\Models\ShareModel::delete($id) should be compatible with CodeIgniter\Model::delete($id = NULL, bool $purge = false)
+#0 /home/fadf4949/codeigniter/app/Models/ShareModel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', '/home/fadf4949/...', 7, Array)
+#1 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(365): require_once('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/fadf4949/...')
+#3 /home/fadf4949/codeigniter/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Shar...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Shar...')
+#5 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(11): spl_autoload_call('App\\Models\\Shar...')
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#7 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#8 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-08-22 23:31:13 --> Undefined property: CodeIgniter\View\View::$load
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 8, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:31:37 --> Undefined property: CodeIgniter\View\View::$load
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/fadf4949/...', 8, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:33:14 --> Undefined variable: products
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 42, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:33:50 --> Undefined variable: files
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 42, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:33:51 --> Undefined variable: files
+#0 /home/fadf4949/codeigniter/app/Views/tableView/shareTarget.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 42, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('tableView/share...', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('tableView/share...', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:51:43 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 23:54:56 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:55:17 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#1 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#2 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#3 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-22 23:56:25 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:58:56 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:59:00 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:59:22 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:59:25 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-22 23:59:26 --> Undefined variable: name
+#0 /home/fadf4949/codeigniter/app/Views/shareView.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/fadf4949/...', 37, Array)
+#1 /home/fadf4949/codeigniter/system/View/View.php(246): include('/home/fadf4949/...')
+#2 /home/fadf4949/codeigniter/system/Common.php(1087): CodeIgniter\View\View->render('shareView', Array, true)
+#3 /home/fadf4949/codeigniter/app/Controllers/ShareTarget.php(17): view('shareView', Array)
+#4 /home/fadf4949/codeigniter/system/CodeIgniter.php(917): App\Controllers\ShareTarget->index()
+#5 /home/fadf4949/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShareTarget))
+#6 /home/fadf4949/codeigniter/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/fadf4949/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

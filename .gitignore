@@ -15,7 +15,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-composer.lock
+#composer.lock
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/

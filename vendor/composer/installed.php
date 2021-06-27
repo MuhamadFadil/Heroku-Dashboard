@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'bf13cecc64a27089f955b35cc058f0a66d0427a7',
+    'reference' => 'b7449d168199c70c95a37074e35752f33c5f1ff9',
     'name' => 'codeigniter4/appstarter',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bf13cecc64a27089f955b35cc058f0a66d0427a7',
+      'reference' => 'b7449d168199c70c95a37074e35752f33c5f1ff9',
     ),
     'codeigniter4/framework' => 
     array (
@@ -46,6 +46,15 @@
       array (
       ),
       'reference' => 'ed22aee8d17c7b396f74a58b1e7fefa4f90d5ef1',
+    ),
+    'heroku/heroku-buildpack-php' => 
+    array (
+      'pretty_version' => 'v194',
+      'version' => '194.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6232512eecda4ffe4bbbdffa5dbe36ddf0c55d8d',
     ),
     'kint-php/kint' => 
     array (

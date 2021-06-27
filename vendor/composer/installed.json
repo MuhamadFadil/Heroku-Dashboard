@@ -201,6 +201,54 @@
             "install-path": "../fakerphp/faker"
         },
         {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v194",
+            "version_normalized": "194.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "6232512eecda4ffe4bbbdffa5dbe36ddf0c55d8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/6232512eecda4ffe4bbbdffa5dbe36ddf0c55d8d",
+                "reference": "6232512eecda4ffe4bbbdffa5dbe36ddf0c55d8d",
+                "shasum": ""
+            },
+            "time": "2021-06-25T16:30:14+00:00",
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v194"
+            },
+            "install-path": "../heroku/heroku-buildpack-php"
+        },
+        {
             "name": "kint-php/kint",
             "version": "3.3",
             "version_normalized": "3.3.0.0",
@@ -2448,6 +2496,7 @@
     "dev-package-names": [
         "doctrine/instantiator",
         "fakerphp/faker",
+        "heroku/heroku-buildpack-php",
         "mikey179/vfsstream",
         "phpdocumentor/reflection-common",
         "phpdocumentor/reflection-docblock",

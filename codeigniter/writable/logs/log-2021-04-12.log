@@ -1,7 +1,0 @@
-CRITICAL - 2021-04-12 11:29:42 --> syntax error, unexpected '}'
-#0 C:\xampp\htdocs\SCR\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('setting/client')
-#1 C:\xampp\htdocs\SCR\system\CodeIgniter.php(792): CodeIgniter\Router\Router->handle('setting/client')
-#2 C:\xampp\htdocs\SCR\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
-#3 C:\xampp\htdocs\SCR\system\CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\xampp\htdocs\SCR\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#5 {main}

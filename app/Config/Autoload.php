@@ -28,7 +28,7 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 	{
 		parent::__construct();
 		
-		$autoload['libraries'] = array("GroceryCrud","database");
+		//$autoload['libraries'] = array("GroceryCrud","database");
 
 		/**
 		 * -------------------------------------------------------------------

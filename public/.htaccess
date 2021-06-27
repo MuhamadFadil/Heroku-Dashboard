@@ -10,10 +10,6 @@ Options All -Indexes
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
 	RewriteEngine On
-	
-    #access https directly
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 	# If you installed CodeIgniter in a subfolder, you will need to
 	# change the following line to match the subfolder you need.
@@ -49,13 +45,4 @@ Options All -Indexes
 
 # Disable server signature start
     ServerSignature Off
-# Disable server signature 
-
-#define limit_memory_access
-#php_value memory_limit 512M
-# php_value memory_limit 300M
-
-<Files 403.shtml>
-order allow,deny
-allow from all
-</Files>
+# Disable server signature end
